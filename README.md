@@ -1,5 +1,5 @@
 # Instalacija neophodnih biblioteka za rad
-`npm init`
+`npm i`
 # Pokretanje programa 
 `npm start`
 # Otvara se browser i prikazuje se početna stranica
