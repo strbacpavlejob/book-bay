@@ -1,0 +1,30 @@
+.BookDetails{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+
+}
+.BookDetails img{
+    margin-top: 2em;
+    justify-content: flex-start;
+}
+.BookDetails .card {
+    display: flex;
+    flex: 1 1 auto;
+}
+.BookDetails .card-text{
+    margin: 5%;
+    text-align: justify;
+}
+.BookDetails .card-title{
+    margin: 5%;
+    text-align: left;
+}
+.BookDetails .card-subtitle{
+    margin: 5%;
+    text-align: left;
+}

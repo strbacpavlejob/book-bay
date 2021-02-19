@@ -1,0 +1,73 @@
+.BookCard{
+    align-self: flex-start;
+    margin: 2em;
+    align-items: center;
+}
+
+.card-img-top {
+    float: center;
+    width: 300px;
+    height: 300px;
+    margin-top: 1em;
+    object-fit: contain;
+}
+
+.textnextToImg {
+    padding-top: 0em;
+    line-height: 400%;
+    margin: 2.5em;
+}
+.card{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.card-body{
+    align-self: center;
+    align-items: center;
+    margin-top: 2.5em;
+}
+.card-title{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Heebo', sans-serif;
+}
+.card-subtitle{
+    
+    font-size: 1em;
+    font-family: 'Heebo', sans-serif;
+}
+
+.ReadMoreButton {
+    margin: 1%;
+    
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1px solid black;
+    height: 3.5em;
+    width: 10em;
+
+}
+.ReadMoreButton:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.ReadMoreButton:active {
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+}
+.nav .BookCard{
+   font-size: 1em;
+}
+.readMoreLink{
+    padding: 0 0;
+    font-size: 15px;
+    align-items: center;
+    position: relative;
+}
+

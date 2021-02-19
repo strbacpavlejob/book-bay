@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100&display=swap');
+
+
+.searchFiled{
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+.Searchterms {
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 4em;
+    text-align: left;
+    height: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid rgb(128, 128, 128);
+    margin-bottom: 0.2em;
+}
+
+::placeholder {
+    color: rgb(161, 161, 161);
+}
+.searchButton {
+    margin: 2%;
+    
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1px solid black;
+    height: 3.5em;
+    width: 10em;
+    font-size: 1em;
+    transform: scale(1);
+    transition-duration: 0.5s;
+}
+.searchButton:hover {
+
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.searchButton:active {
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+}
+
+
