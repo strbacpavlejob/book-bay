@@ -23,4 +23,4 @@
 
 **Napomena neke knjige imaju samo osonvne podatke kao sto su korice, naslov i autor**
 
-**Open libery API je znatno spor kada je u pitanj dohvatanje naslova koji imaju dosta nastavak npr Harry Potter**
+**Open Libary API je znatno spor kada je u pitanj dohvatanje naslova koji imaju dosta nastavak npr Harry Potter**
